@@ -7,9 +7,9 @@ module.exports = {
       }
     },
     {
-      name: 'Ember canary',
+      name: 'Ember Beta',
       dependencies: {
-        'ember': 'canary'
+        'ember': 'beta'
       }
     }
   ]
