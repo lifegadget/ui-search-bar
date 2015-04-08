@@ -1,0 +1,5 @@
+<span class="choices">
+	{{#each choice in criteria}}
+		{{ui-search-bar-filter-item choice=choice groupId=elementId selected=criteriaSelected action='itemSelected'}}
+	{{/each}}
+</span>

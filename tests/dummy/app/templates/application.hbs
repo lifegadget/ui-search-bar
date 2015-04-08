@@ -1,3 +1,141 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div class="container">
+    <h1 id="title">ui-search-bar</h1>
+    <h2>Search bar and optional filter criteria</h2>
+    
+    <h3>Basics</h3>
+    <div class="row">
+        <p class="descriptive col-xs-12 col-sm-8 col-lg-6">
+            The basic syntax
+        </p>        
+    </div>
+    
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar}} 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar placeholder="Filter..." searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar placeholder="Filter..." searchIcon=true}} 
+        </div>
+    </div>
 
-{{outlet}}
+    <h3>Sizing</h3>
+    <div class="row">
+        <p class="descriptive col-xs-12 col-sm-8 col-lg-6">
+            Different strokes for different folks ...
+        </p>        
+    </div>
+
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar size="small" searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar size="small" searchIcon=true}} 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar size="default" searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar size="default" searchIcon=true}} 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar size="large" searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar size="large" searchIcon=true}} 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar size="huge" searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar size="huge" searchIcon=true}} 
+        </div>
+    </div>
+
+    <h3>Styling</h3>
+    <div class="row">
+        <p class="descriptive col-xs-12 col-sm-8 col-lg-6">
+            By default it will use "bootstrap styling" but you can also choose "flat"
+        </p>        
+    </div>
+
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar style="bootstrap"}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar style="bootstrap"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar style="flat"}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar style="flat"}} 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar style="flat" searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar style="flat" searchIcon=true}} 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-4">
+            {{ui-search-bar style="flat" size='large' searchIcon=true}}
+        </div>
+        <div class="snippet col-xs-8">
+            \{{ui-search-bar style="flat" size='large' searchIcon=true}} 
+        </div>
+    </div>
+
+    <h3>Filter Criteria</h3>
+    <div class="row">
+        <p class="descriptive col-xs-12 col-sm-10 col-lg-8">
+            Beyond a text search, you can offer a radio control which is meant to scope the
+			search set in some way that only your sneaky self knows about. Whatever the user
+			chooses can be bound to at the <code>criteriaSelected</code> variable.
+        </p>
+    </div>
+	<div class="row">
+		<p class="descriptive col-xs-12">Search For: <code>{{searchValue}}</code></p>
+		<p class="descriptive col-xs-12">Within the criteria of: <code>{{criteriaSelected}}</code></p>
+	</div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            {{ui-search-bar style="bootstrap" value=searchValue criteria=criteria criteriaSelected=criteriaSelected}}
+        </div>
+		<p class="row">&nbsp;</p>
+        <div class="snippet col-xs-5">
+            \{{ui-search-bar <br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;value=searchValue <br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;criteria=criteria <br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;criteriaChoice=criteriaChoice<br/>
+			}} 
+        </div>
+        <div class=" col-xs-7">
+			Defined in Javascript: 
+			
+            <pre class="snippet">criteria: [{id:'all', value:'All'},{id:'active', value:'Active Clients'}]</pre> 
+        </div>
+    </div>
+
+</div>

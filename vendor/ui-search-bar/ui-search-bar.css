@@ -1,0 +1,97 @@
+.ui-search-bar svg.search-icon {
+	position: absolute;
+	left: 22px;
+	top: 4px;
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	stroke: lightgrey;
+	fill: darkgrey;
+}
+
+.ui-search-bar svg.search-icon.flat {
+	top: 0px;
+	left: 18px;
+	height: 22px;
+	width: 22px;
+}
+
+.ui-search-bar svg.search-icon.small {
+	height: 22px;
+	width: 22px;
+}
+
+.ui-search-bar svg.search-icon.large {
+	top: 6px;
+	height: 32px;
+	width: 32px;
+}
+
+.ui-search-bar svg.search-icon.huge {
+	top: 10px;
+	height: 40px;
+	width: 40px;
+}
+
+.ui-search-bar .input-huge {
+	height: 60px;
+	padding: 10px 20px;
+	font-size: 24pt;
+	line-height: 1.6666666;
+	border-radius: 8px;
+}
+
+.ui-search-bar input.search-icon.input-sm {
+	padding-left: 30px;
+}
+
+.ui-search-bar input.search-icon {
+	padding-left: 34px;
+}
+
+.ui-search-bar input.search-icon.input-lg {
+	padding-left: 40px;
+}
+
+.ui-search-bar input.search-icon.input-huge {
+	padding-left: 52px;
+}
+
+.ui-search-bar input.flat {
+	border-style: none;
+	border-bottom: 2px solid lightgrey;
+	padding: 2px 10px;
+	width: 100%;
+	border-radius: 0;
+}
+.ui-search-bar input.flat:focus {
+	border-style: none;
+	border-bottom: 3px solid lightgrey;
+	outline: none;
+}
+
+.ui-search-bar input.flat.search-icon {
+	padding-left: 30px;
+}
+.ui-search-bar input.flat.search-icon.input-lg {
+	padding-left: 40px;
+}
+
+.ui-search-bar input.flat.search-icon.input-huge {
+	padding-left: 52px;
+}
+
+.ui-search-bar .choices {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	cursor: pointer;
+}
+.ui-search-bar .filter-item {
+	padding-right: 10px;
+}
+
+.ui-search-bar .filter-item.active {
+	font-weight: 600;
+}
