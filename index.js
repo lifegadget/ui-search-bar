@@ -8,4 +8,5 @@ module.exports = {
 		this._super.included(app);
     // specific to this addon
     app.import('vendor/ui-search-bar/ui-search-bar.css');
+	}
 };
