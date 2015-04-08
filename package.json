@@ -1,6 +1,6 @@
 {
 	"name": "ui-search-bar",
-	"version": "0.0.0",
+	"version": "0.0.2",
 	"description": "The default blueprint for ember-cli addons.",
 	"directories": {
 		"doc": "doc",
@@ -11,7 +11,7 @@
 		"build": "ember build",
 		"test": "ember try:testall"
 	},
-	"repository": "",
+	"repository": "git@github.com:lifegadget/ui-search-bar.git",
 	"engines": {
 		"node": ">= 0.10.0"
 	},
