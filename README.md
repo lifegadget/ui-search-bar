@@ -44,8 +44,8 @@ FontAwesome is the sole dependency for this repo to work but it was designed to 
 
 This may very well work with older version of Ember and Ember-CLI but it was intended for:
 
-- Ember 1.11.0+
-- Ember-CLI 0.2.2+
+- Ember 1.11.1+
+- Ember-CLI 0.2.3+
 
 ## Repo Contribution
 
